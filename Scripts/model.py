@@ -6,7 +6,7 @@ class FacialExpressionModel(object):
 
     EMOTELIST = ["Angry", "Nauseated",
                      "Fear", "Happy",
-                     "Neutral", "Sad",
+                     "Blank", "Sad",
                      "Calm"]
 
     def __init__(self, fer_model_file, fer_weights_file):

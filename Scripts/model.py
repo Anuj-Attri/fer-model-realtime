@@ -4,10 +4,10 @@ import emoji
 
 class FacialExpressionModel(object):
 
-    EMOTELIST = ["angry", "nauseated",
-                     "fear", "Happy",
-                     "neutral", "crying",
-                     "Surprised"]
+    EMOTELIST = ["Angry", "Nauseated",
+                     "Fear", "Happy",
+                     "Neutral", "Surprised",
+                     "Sad"]
 
     def __init__(self, fer_model_file, fer_weights_file):
         # load Model from JSON file

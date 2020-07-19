@@ -2,8 +2,8 @@ import cv2
 from model import FacialExpressionModel
 import numpy as np
 
-facec = cv2.CascadeClassifier('/fer-model-realtime/haarcascade_frontalface_default.xml')
-model = FacialExpressionModel("/fer-model-realtime/Model/fer_model.json", "/fer-model-realtime/Model/weights.h5")
+facec = cv2.CascadeClassifier('D:/PSD/fer-model-realtime/haarcascade_frontalface_default.xml')
+model = FacialExpressionModel("D:/PSD/fer-model-realtime/Model/fer_model.json", "D:/PSD/fer-model-realtime/Model/weights.h5")
 font = cv2.FONT_HERSHEY_SIMPLEX
 
 class VideoCamera(object):

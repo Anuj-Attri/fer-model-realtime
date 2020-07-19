@@ -6,8 +6,8 @@ class FacialExpressionModel(object):
 
     EMOTELIST = ["Angry", "Nauseated",
                      "Fear", "Happy",
-                     "Neutral", "Surprised",
-                     "Sad"]
+                     "Neutral", "Sad",
+                     "Calm"]
 
     def __init__(self, fer_model_file, fer_weights_file):
         # load Model from JSON file

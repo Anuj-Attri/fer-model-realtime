@@ -1,4 +1,4 @@
 OpenCv-python
 NumPy==1.18.5
-tensorflow.keras
+keras
 Flask==1.1.2

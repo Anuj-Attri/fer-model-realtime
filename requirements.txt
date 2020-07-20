@@ -2,3 +2,4 @@ OpenCv-python-headless
 NumPy==1.18.5
 keras
 Flask==1.1.2
+Tensorflow

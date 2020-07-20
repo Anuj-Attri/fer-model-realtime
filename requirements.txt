@@ -1,4 +1,4 @@
-OpenCv==3.4.2
+OpenCv
 NumPy==1.18.5
 Tensorflow==2.1.0
 Flask==1.1.2

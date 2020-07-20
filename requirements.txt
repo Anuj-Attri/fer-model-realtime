@@ -1,4 +1,4 @@
-OpenCv-python-headless
+OpenCv-python
 NumPy==1.18.5
 Flask==1.1.2
-keras
+Tensorflow

@@ -1,4 +1,4 @@
 OpenCv-python
-NumPy==1.18.5
+NumPy==1.22.0
 Flask==1.1.2
 Tensorflow
